@@ -7,3 +7,13 @@
   color: #fff;
   padding: 100px 25px;
 }
+img {
+  margin: auto;
+  display: block;
+}
+@media screen and (max-width: 768px) {
+  .col-sm-4 {
+    text-align: center;
+    margin: 25px 0;
+  }
+}
