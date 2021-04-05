@@ -7,7 +7,7 @@
   color: #fff;
   padding: 100px 25px;
 }
-img {
+.img-logo {
   margin: auto;
   display: block;
 }
@@ -16,4 +16,21 @@ img {
     text-align: center;
     margin: 25px 0;
   }
+}
+.thumbnail {
+  padding: 0 0 15px 0;
+  border: none;
+  border-radius: 0;
+
+}
+
+.thumbnail img {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 10px;
+ 
+}
+
+.bg-img-tecnical{
+  background-color: #019292;
 }
