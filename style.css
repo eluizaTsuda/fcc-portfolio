@@ -28,9 +28,12 @@
   width: 100%;
   height: 100%;
   margin-bottom: 10px;
- 
+
 }
 
 .bg-img-tecnical{
-  background-color: #019292;
+  background-color: #738d8d;
+}
+.bg-img-product{
+  background-color:rgb(122, 161, 185);
 }
