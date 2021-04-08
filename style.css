@@ -32,11 +32,14 @@
 }
 
 .bg-img-tecnical{
-  background-color: #738d8d;
+  background-color: #92afaf;
 }
 .bg-img-product{
-  background-color:rgb(122, 161, 185);
+  background-color:rgb(138, 170, 190);
 }
 .bg-img-survey{
-  background-color: rgb(241, 208, 146);
+  background-color: rgb(248, 225, 182);
+}
+.bg-img-tribute{
+  background-color: rgb(189, 213, 240);
 }
