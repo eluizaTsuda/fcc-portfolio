@@ -1,12 +1,21 @@
+
+.jumbotron{
+  background-color: #97c2e2; /*lightblue*/
+  color: #0f0f0f;
+  padding: 100px 25px;
+}
 .container-fluid {
   padding: 60px 50px;
 }
 
-.jumbotron {
-  background-color: #f4511e;
-  color: #fff;
-  padding: 100px 25px;
+
+.bg-grey{
+  background-color: #f6f6f6;
 }
+
+
+
+
 .img-logo {
   margin: auto;
   display: block;
@@ -42,4 +51,29 @@
 }
 .bg-img-tribute{
   background-color: rgb(189, 213, 240);
+}
+
+.navbar {
+  margin-bottom: 0;
+  background-color: #97c2e2; /*lightblue*/
+  z-index: 9999;
+  border: 0;
+  font-size: 12px !important;
+  line-height: 1.42857143 !important;
+  letter-spacing: 4px;
+  border-radius: 0;
+}
+
+.navbar li a, .navbar .navbar-brand {
+  color: #fff !important;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+  color: #052e55 !important;
+  background-color: #fff !important;
+}
+
+.navbar-default .navbar-toggle {
+  border-color: transparent;
+  color: #fff !important;
 }
