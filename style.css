@@ -59,7 +59,9 @@
 .bg-img-tribute{
   background-color: rgb(189, 213, 240);
 }
-
+.bg-img-simplyme{
+  background-color: #c9b6e4;
+}
 .navbar {
   margin-bottom: 0;
   background-color: #97c2e2; /*lightblue*/
