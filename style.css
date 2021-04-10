@@ -1,3 +1,7 @@
+:root{
+ --color-purple: #ab35bb;
+}
+
 
 .jumbotron{
   background-color: #97c2e2; /*lightblue*/
@@ -11,6 +15,9 @@
 
 .bg-grey{
   background-color: #f6f6f6;
+}
+.bg-black{
+  background-color: black;
 }
 
 
@@ -81,5 +88,18 @@
 footer .glyphicon {
   font-size: 20px;
   margin-bottom: 20px;
-  color: #052e55;
+  color: #f2f3f5;
+}
+
+/* >>>>> Brandname - coded by eluh! <<<<< */
+.brandname {
+  font-size: 1.3em;
+  font-weight: 900;
+  color: var(--color-purple);
+  font-family: Princess Sofia, Calibri;
+}
+.codedby {
+  font-weight:500;
+  font-size: 0.9em;
+  color: white;
 }
