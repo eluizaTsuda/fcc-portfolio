@@ -109,3 +109,19 @@ footer .glyphicon {
   font-size: 0.9em;
   color: white;
 }
+
+
+.btn {
+  display: inline-block;
+  padding: 1rem 2rem;
+  border-radius: 2px;
+}
+.contact-details {
+  font-size: 2.0rem;
+  text-shadow: 1px 1px 1px #1f1f1f;
+  transition: transform 0.3s ease-out;
+}
+
+.contact-details:hover {
+  transform: translateY(8px);
+}
