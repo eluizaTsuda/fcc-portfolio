@@ -118,6 +118,12 @@ footer .glyphicon {
   color: white;
 }
 
+/* >>>>>>> Button Portfolio <<<<< */
+.btn-portfolio {
+  display: inline-block;
+  font-size: 2rem;
+}
+
 /* >>>>>>> Contacts <<<<<< */
 .btn {
   display: inline-block;

@@ -103,9 +103,14 @@
   <!-- Carousel End -->
 
   <div id="about" class="jumbotron text-center">
-    <h2>My name is Luiza, but you can call me by my nickname, everyone calls me Luh!</h2>
-    <img src="image/Luh_avatar.png" class="img-responsive" style="display:inline" alt="Luh_avatar">
-    <p>I am a web developer in St. John's, Newfoundland - CA</p>
+    <h2>My name is Luiza, but you can call me by my nickname "Luh!"</h2>
+    <img 
+      src="image/Luh_avatar_hi.png" 
+      class="img-responsive" 
+      style="display:inline" alt="Luh_avatar" 
+      data-toggle="tooltip" title="Nice to meet you!"
+    >
+    <p>I am a web developer based on the beautiful eastern coast of Canada, St.John's.</p>
     <p>I hold a Bachelor of Science degree in applied mathematics and computing science; and a graduate Diploma in services-oriented software engineering.</p>
 
     <p>I worked as a systems analyst for several years. Now I am in a career transition, and my current goal is to acquire knowledge in web development.</p>
@@ -126,6 +131,12 @@
     <h5>Click on the images to visit the sites.</h5>
     <br>
 
+    <!--
+    <i class="fab fa-html5"></i>
+    <i class="fab fa-css3-alt"></i>
+    <i class="fab fa-bootstrap"></i>
+    -->
+
     <div class="row text-center">
 
       <div class="col-sm-4">
@@ -145,7 +156,17 @@
           </a>
           <div class="bg-img-simplyme">
             <p><strong>Simply me!</strong></p>
-            <p>Yes, I coded that!</p>
+
+            <a href="https://codepen.io/eluizatsuda/full/ZELvbgM" target="_blank">
+            <img src="" alt="">Try it live and view the code on Codepen <i class="fab fa-codepen"></i>
+            </a>
+
+            <div>
+              <i btn-portfolio class="fab fa-html5"></i>
+              <i btn-portfolio class="fab fa-css3-alt"></i>
+              <i btn-portfolio class="fab fa-bootstrap"></i>
+            </div>
+
           </div>
         </div>
       </div>
@@ -157,7 +178,13 @@
           </a>
           <div class="bg-img-tecnical">
             <p><strong>Technical Documentation</strong></p>
-            <p>Yes, I coded that!</p>
+            <a href="https://codepen.io/eluizatsuda/full/rNWgdRb" target="_blank">
+              <img src="" alt="">Try it live and view the code on Codepen <i class="fab fa-codepen"></i>
+            </a>
+            <div>
+              <i btn-portfolio class="fab fa-html5"></i>
+              <i btn-portfolio class="fab fa-css3-alt"></i>
+            </div>
           </div>
         </div>
       </div>
@@ -169,7 +196,11 @@
           <a href="https://codepen.io/eluizatsuda/full/qBaJorN" target="_blank"><img src="image/img-product-transp.png" alt="site responsive - product landing" width="400" height="300" class="bg-img-product"></a>
           <div class="bg-img-product">
             <p><strong>Product Landing Page</strong></p>
-            <p>Yes, I coded that!</p>
+            <a href="https://codepen.io/eluizatsuda/full/qBaJorN" target="_blank">
+              <img src="" alt="">Try it live and view the code on Codepen <i class="fab fa-codepen"></i>
+            </a>
+            <i btn-portfolio class="fab fa-html5"></i>
+            <i btn-portfolio class="fab fa-css3-alt"></i>
           </div>
         </div>
       </div>
@@ -181,7 +212,11 @@
           </a>
           <div class="bg-img-survey">
             <p><strong>Survey Page</strong></p>
-            <p>Yes, I coded that!</p>
+            <a href="https://codepen.io/eluizatsuda/full/XWKZRjv" target="_blank">
+              <img src="" alt="">Try it live and view the code on Codepen <i class="fab fa-codepen"></i>
+            </a>
+            <i btn-portfolio class="fab fa-html5"></i>
+            <i btn-portfolio class="fab fa-css3-alt"></i>
           </div>
         </div>
       </div>
@@ -192,8 +227,12 @@
             <img src="image/img-tribute-transp.png" alt="site-responsive - tribute" width="400" height="300"  class="bg-img-tribute">
           </a>
           <div class="bg-img-tribute"> 
-            <p><strong>Tribute Page</strong></p>
-            <p>Yes, I coded that!</p>
+              <p><strong>Tribute Page</strong></p>
+              <a href="https://codepen.io/eluizatsuda/full/NWNVqwP" target="_blank">
+                <img src="" alt="">Try it live and view the code on Codepen <i class="fab fa-codepen"></i>
+              </a>
+              <i class="btn-portfolio fab fa-html5"></i>
+              <i class="btn-portfolio fab fa-css3-alt"></i>
           </div>
         </div>
       </div>
@@ -263,6 +302,13 @@
     <span class="codedby">Coded by </span>
     <span class="brandname"> eLuh!</span>
   </footer>
+
+  <!-- Script -->
+  <script>
+    $(document).ready(function(){
+      $('[data-toggle="tooltip"]').tooltip();   
+    });
+  </script>
 </body>
 </html>
  
