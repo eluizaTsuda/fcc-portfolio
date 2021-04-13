@@ -66,6 +66,14 @@
   background-color: lightgray;
 }
 
+
+.carousel-inner img {
+   /*  Set width to 100% */
+   width: 100%;
+   margin:auto;
+
+}
+
 .navbar {
   margin-bottom: 0;
   background-color: #97c2e2; /*lightblue*/
@@ -110,7 +118,7 @@ footer .glyphicon {
   color: white;
 }
 
-
+/* >>>>>>> Contacts <<<<<< */
 .btn {
   display: inline-block;
   padding: 1rem 2rem;
