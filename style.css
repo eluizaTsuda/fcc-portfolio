@@ -65,7 +65,9 @@
 .bg-img-newproject{
   background-color: lightgray;
 }
-
+.text-strong{
+  font-weight: 600;
+}
 
 .carousel-inner img {
    /*  Set width to 100% */
