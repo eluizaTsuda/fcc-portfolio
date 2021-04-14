@@ -2,6 +2,11 @@
  --color-purple: #ab35bb;
 }
 
+body{
+  font-family: 'Livvic', sans-serif;
+  font-size: 20px;
+  line-height: 1.5;
+}
 
 .jumbotron{
   background-color: #97c2e2; /*lightblue*/
@@ -12,6 +17,9 @@
   padding: 60px 50px;
 }
 
+.font-small16 {
+  font-size: 16px;
+}
 
 .bg-grey{
   background-color: #f6f6f6;
@@ -87,8 +95,14 @@
   border-radius: 0;
 }
 
+.thumbnail a{
+  color: #950E4C !important; 
+  font-size: 16px;
+}
+
 .navbar li a, .navbar .navbar-brand {
-  color: #fff !important;
+  color: #950E4C !important; 
+  font-weight: 600;
 }
 
 .navbar-nav li a:hover, .navbar-nav li.active a {
@@ -101,13 +115,14 @@
   color: #fff !important;
 }
 
+
+/* >>>>> Footer - Brandname <<<<< */
 footer .glyphicon {
   font-size: 20px;
   margin-bottom: 20px;
-  color: #f2f3f5;
+  color: #f2f3f5;;
 }
 
-/* >>>>> Brandname - coded by eluh! <<<<< */
 .brandname {
   font-size: 1.3em;
   font-weight: 900;
@@ -127,17 +142,15 @@ footer .glyphicon {
 }
 
 /* >>>>>>> Contacts <<<<<< */
-.btn {
+.btn-contact {
   display: inline-block;
   padding: 1rem 2rem;
   border-radius: 2px;
-}
-.contact-details {
   font-size: 2.0rem;
-  text-shadow: 1px 1px 1px #1f1f1f;
+  color: #950E4C;
+  text-shadow: 1px 1px 1px rgb(109, 203, 235);
   transition: transform 0.3s ease-out;
 }
-
-.contact-details:hover {
+.btn-contact:hover {
   transform: translateY(8px);
 }
