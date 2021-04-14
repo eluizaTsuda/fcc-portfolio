@@ -17,8 +17,11 @@ body{
   padding: 60px 50px;
 }
 
-.font-small16 {
+.font-size16 {
   font-size: 16px;
+}
+.font-size18 {
+  font-size: 18px;
 }
 
 .bg-grey{
@@ -57,6 +60,11 @@ body{
 
 }
 
+.thumbnail a{
+  color: #950E4C !important; 
+  font-size: 16px;
+}
+
 .bg-img-tecnical{
   background-color: #92afaf;
 }
@@ -91,16 +99,13 @@ body{
   background-color: #97c2e2; /*lightblue*/
   z-index: 9999;
   border: 0;
-  font-size: 12px !important;
+  font-size: 14px !important;
   line-height: 1.42857143 !important;
   letter-spacing: 4px;
   border-radius: 0;
 }
 
-.thumbnail a{
-  color: #950E4C !important; 
-  font-size: 16px;
-}
+
 
 .navbar li a, .navbar .navbar-brand {
   color: #950E4C !important; 
@@ -119,18 +124,24 @@ body{
 
 
 /* >>>>> Footer - Brandname <<<<< */
-footer .glyphicon {
-  font-size: 20px;
-  margin-bottom: 20px;
-  color: #f2f3f5;;
-}
 
 .brandname {
-  font-size: 1.3em;
+  font-size: 2.0em;
   font-weight: 900;
   color: var(--color-purple);
   font-family: Princess Sofia, Calibri;
 }
+
+footer .brandname {
+  font-size: 1.3em;
+}
+
+footer .fa-angle-double-up {
+  font-size: 25px;
+  margin-bottom: 10px;
+  color: #f2f3f5;;
+}
+
 .codedby {
   font-weight:500;
   font-size: 0.9em;
@@ -155,4 +166,41 @@ footer .glyphicon {
 }
 .btn-contact:hover {
   transform: translateY(8px);
+}
+
+
+/* >>>>>> SLIDE <<<<<< */
+
+.slideanim {visibility:hidden;}
+.slide {
+  /* The name of the animation */
+  animation-name: slide;   
+  -webkit-animation-name: slide;
+  /* The duration of the animation */
+  animation-duration: 1s;
+  -webkit-animation-duration: 1s;
+  /* Make the element visible */
+  visibility: visible;
+}
+
+/* Go from 0% to 100% opacity (see-through) and specify the percentage from when to slide in the element along the Y-axis */
+@keyframes slide {
+  0% {
+    opacity: 0;
+    transform: translateY(70%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+@-webkit-keyframes slide {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(70%);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0%);
+  }
 }

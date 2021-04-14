@@ -67,7 +67,7 @@
   </nav>
  
   <!-- >>>>>>>> Carousel Start <<<<<<<<<<-->
-  <div id="bg-Carousel" class="carousel slide" data-ride="carousel">
+  <div id="bg-Carousel" class="carousel " data-ride="carousel">
     <!-- Indicators -->
     <ol class="carousel-indicators">
       <li data-target="#bg-Carousel" data-slide-to="0" class="active"></li>
@@ -102,11 +102,11 @@
   </div>
   <!-- Carousel End -->
 
-  <div id="about" class="jumbotron text-center">
+  <div id="about" class="container-fluid text-center bg-skyblue">
     <h2>My name is Luiza, but you can call me by my nickname "Luh!"</h2>
     <img 
       src="image/Luh_avatar_hi.png" 
-      class="img-responsive" 
+      class="img-responsive slideanim" 
       style="display:inline" alt="Luh_avatar" 
       data-toggle="tooltip" title="Nice to meet you!"
     >
@@ -129,19 +129,36 @@
 
     <h2>What I have created ...</h2>
     <br>
-    <div class="row text-center">
-
+    <div class="row text-center slideanim">
+      <!-- >>>>> Personal Portfolio <<<<< -->
       <div class="col-sm-4">
         <div class="thumbnail">
-          <img src="image/img-newproject-transp.png" alt="site-responsive - new project" width="400" height="300" class="bg-img-newproject">
+          <a href="#" target="_blank">
+            <img src="image/img-newproject-transp.png" alt="site-responsive - new project" width="400" height="300" class="bg-img-newproject">
+          </a>
+          <div class="bg-img-portfolio">
 
-          <div class="bg-img-newproject">
-            <p><strong>*** NEW PROJECT ***</strong></p>
-            <p>Yes, I will code a new website!!</p>
+            <a href="#myportfolio" data-toggle="collapse" title="Click to read about Portfolio">
+              <p class="text-strong">Personal portfolio  <i class="far fa-window-maximize"></i></p>
+            </a>
+            <div id="myportfolio" class="collapse font-size16">
+              <p>I have developed this website as part of the projects (5/5) required to complete the freeCodeCamp <i class="fab fa-free-code-camp"></i> Web Design Responsive course.</p>
+              <p>Objective: Build a Personal Portfolio Webpage. Fulfill all the <a href="https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-personal-portfolio-webpage" target="_blank">user stories</a> and get all of the tests to pass. Give it your style.</p>
+            </div>
+
+            <a href="#" target="_blank">
+              Try it live and view the code on Codepen <i class="fab fa-codepen"></i>
+            </a>
+            <p class="font-size16">Tech Stack 
+              <i class="btn-portfolio fab fa-html5"></i>
+              <i class="btn-portfolio fab fa-css3-alt"></i>
+              <i class="btn-portfolio fab fa-bootstrap"></i>
+            </p>
           </div>
         </div>
       </div>
 
+      <!-- >>>>> Simply me! <<<<< -->
       <div class="col-sm-4">
         <div class="thumbnail">
           <a href="https://codepen.io/eluizatsuda/full/ZELvbgM" target="_blank">
@@ -152,7 +169,8 @@
             <a href="#simplyme" data-toggle="collapse" title="Click to read about Simply me!">
               <p class="text-strong">Simply me!  <i class="far fa-window-maximize"></i></p>
             </a>
-            <div id="simplyme" class="collapse">
+            
+            <div id="simplyme" class="collapse font-size16">
                 <p>
                   In this project, I put into practice the lessons learned on the <a href="https://www.w3schools.com/bootstrap/" target="_blank">w3schools</a> site about Bootstrap.
                 </p>
@@ -162,9 +180,9 @@
             </div>
 
             <a href="https://codepen.io/eluizatsuda/full/ZELvbgM" target="_blank">
-              <img src="" alt="">Try it live and view the code on Codepen <i class="fab fa-codepen"></i>
+              Try it live and view the code on Codepen <i class="fab fa-codepen"></i>
             </a>
-            <p class="font-small16">Tech Stack 
+            <p class="font-size16">Tech Stack 
               <i class="btn-portfolio fab fa-html5"></i>
               <i class="btn-portfolio fab fa-css3-alt"></i>
               <i class="btn-portfolio fab fa-bootstrap"></i>
@@ -173,6 +191,7 @@
         </div>
       </div>
 
+      <!-- >>>>> Technical documentation <<<<< -->
       <div class="col-sm-4">
         <div class="thumbnail">
           <a href="https://codepen.io/eluizatsuda/full/rNWgdRb" target="_blank">
@@ -184,15 +203,15 @@
               <p class="text-strong">Technical Documentation  <i class="far fa-window-maximize"></i></p>
             </a>
 
-            <div id="technical" class="collapse">
+            <div id="technical" class="collapse font-size16">
               <p>I have developed this website as part of the projects (4/5) required to complete the freeCodeCamp <i class="fab fa-free-code-camp"></i> Web Design Responsive course.</p>
               <p>Objective: Build a technical documentation page. Fulfill all the <a href="https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-technical-documentation-page" target="_blank">user stories</a> and get all of the tests to pass. Give it your style.</p>
           </div>
 
             <a href="https://codepen.io/eluizatsuda/full/rNWgdRb" target="_blank">
-              <img src="" alt="">Try it live and view the code on Codepen <i class="fab fa-codepen"></i>
+              Try it live and view the code on Codepen <i class="fab fa-codepen"></i>
             </a>
-            <p class="font-small16">Tech Stack 
+            <p class="font-size16">Tech Stack 
               <i class="btn-portfolio fab fa-html5"></i>
               <i class="btn-portfolio fab fa-css3-alt"></i>
             </p>
@@ -201,7 +220,8 @@
       </div>
     </div>
   
-    <div class="row text-center">
+    <!-- >>>>> Product landing <<<<< -->
+    <div class="row text-center slideanim">
       <div class="col-sm-4">
         <div class="thumbnail">
           <a href="https://codepen.io/eluizatsuda/full/qBaJorN" target="_blank"><img src="image/img-product-transp.png" alt="site responsive - product landing" width="400" height="300" class="bg-img-product"></a>
@@ -211,15 +231,15 @@
               <p class="text-strong">Product Landing Page  <i class="far fa-window-maximize"></i></p>
             </a>
 
-            <div id="product" class="collapse">
+            <div id="product" class="collapse font-size16">
               <p>I have developed this website as part of the projects (3/5) required to complete the freeCodeCamp <i class="fab fa-free-code-camp"></i> Web Design Responsive course..</p>
               <p>Objective: Build a Product Landing Page. Fulfill all the <a href="https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-product-landing-page" target="_blank">user stories</a> and get all of the tests to pass. Give it your style.</p>
           </div>
 
             <a href="https://codepen.io/eluizatsuda/full/qBaJorN" target="_blank">
-              <img src="" alt="">Try it live and view the code on Codepen <i class="fab fa-codepen"></i>
+              Try it live and view the code on Codepen <i class="fab fa-codepen"></i>
             </a>
-            <p class="font-small16">Tech Stack 
+            <p class="font-size16">Tech Stack 
               <i class="btn-portfolio fab fa-html5"></i>
               <i class="btn-portfolio fab fa-css3-alt"></i>
             </p>
@@ -227,6 +247,7 @@
         </div>
       </div>
 
+      <!-- >>>>> Survey <<<<< -->
       <div class="col-sm-4">
         <div class="thumbnail">
           <a href="https://codepen.io/eluizatsuda/full/XWKZRjv" target="_blank">
@@ -238,15 +259,15 @@
               <p class="text-strong">Survey Form  <i class="far fa-window-maximize"></i></p>
             </a>
 
-            <div id="survey" class="collapse">
+            <div id="survey" class="collapse font-size16">
               <p>I have developed this website as part of the projects (2/5) required to complete the freeCodeCamp <i class="fab fa-free-code-camp"></i> Web Design Responsive course..</p>
               <p>Objective: Build a Survey Form. Fulfill all the <a href="https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-survey-form" target="_blank">user stories</a> and get all of the tests to pass. Give it your style.</p>
             </div>
 
             <a href="https://codepen.io/eluizatsuda/full/XWKZRjv" target="_blank">
-              <img src="" alt="">Try it live and view the code on Codepen <i class="fab fa-codepen"></i>
+  	          Try it live and view the code on Codepen <i class="fab fa-codepen"></i>
             </a>
-            <p class="font-small16">Tech Stack 
+            <p class="font-size16">Tech Stack 
               <i class="btn-portfolio fab fa-html5"></i>
               <i class="btn-portfolio fab fa-css3-alt"></i>
             </p>
@@ -254,6 +275,7 @@
         </div>
       </div>
 
+      <!-- >>>>> Tribute Page <<<<< -->
       <div class="col-sm-4">
         <div class="thumbnail">
           <a href="https://codepen.io/eluizatsuda/full/NWNVqwP" target="_blank">
@@ -265,15 +287,15 @@
               <p class="text-strong">Tribute Page  <i class="far fa-window-maximize"></i></p>
             </a>
 
-            <div id="tribute" class="collapse">
+            <div id="tribute" class="collapse font-size16">
               <p>I have developed this website as part of the projects required (1/5) to complete the freeCodeCamp <i class="fab fa-free-code-camp"></i> Web Design Responsive course..</p>
               <p>Objective: Build a Survey Form. Fulfill all the <a href="https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-tribute-page" target="_blank">user stories</a> and get all of the tests to pass. Give it your style.</p>
             </div>
 
               <a href="https://codepen.io/eluizatsuda/full/NWNVqwP" target="_blank">
-                <img src="" alt="">Try it live and view the code on Codepen <i class="fab fa-codepen"></i>
+                Try it live and view the code on Codepen <i class="fab fa-codepen"></i>
               </a>
-              <p class="font-small16">Tech Stack 
+              <p class="font-size16">Tech Stack 
                 <i class="btn-portfolio fab fa-html5"></i>
                 <i class="btn-portfolio fab fa-css3-alt"></i>
               </p>
@@ -313,7 +335,7 @@
 
       <div class="col-sm-5 ">
           <p>... or through the social media </p>
-          <div class="row">
+          <div class="row slideanim">
             <a
             href="https://www.linkedin.com/in/luizatsuda/"
             target="_blank"
@@ -336,27 +358,29 @@
           </div>
           <br><br>
           <p>... and don't forget to visit my profile on </p>
-          <a
-          id="profile-link"
-          href="https://github.com/eluizaTsuda"
-          target="_blank"
-          class="btn-contact"
-          ><i class="fab fa-github"></i> GitHub</a
-          >
-          <a
-          id="profile-link"
-          href="https://codepen.io/eluizatsuda"
-          target="_blank"
-          class="btn-contact"
-          ><i class="fab fa-codepen"></i> Codepen</a
-          >
-          <a
-          id="profile-link"
-          href="https://www.freecodecamp.org/eluiza"
-          target="_blank"
-          class="btn-contact"
-          ><i class="fab fa-free-code-camp"></i> freeCodeCamp</a
-          >
+          <div class="row slideanim">
+            <a
+            id="profile-link"
+            href="https://github.com/eluizaTsuda"
+            target="_blank"
+            class="btn-contact"
+            ><i class="fab fa-github"></i> GitHub</a
+            >
+            <a
+            id="profile-link"
+            href="https://codepen.io/eluizatsuda"
+            target="_blank"
+            class="btn-contact"
+            ><i class="fab fa-codepen"></i> Codepen</a
+            >
+            <a
+            id="profile-link"
+            href="https://www.freecodecamp.org/eluiza"
+            target="_blank"
+            class="btn-contact"
+            ><i class="fab fa-free-code-camp"></i> freeCodeCamp</a
+            >
+          </div>
       </div>
 
 
@@ -368,7 +392,7 @@
   <!-- footer -->
   <footer class="container-fluid bg-black text-center">
     <a href="#myPage" title="To Top">
-      <span class="glyphicon glyphicon-chevron-up"></span>
+      <i class="fas fa-angle-double-up"></i>
     </a><br>
     <p class="codedby">Coded by <span class="brandname"> eLuh!</span> </p>
     <p class="codedby"> * I have developed this website as part of the projects required to complete the freeCodeCamp Web Design Responsive course.</p>
@@ -376,8 +400,20 @@
 
   <!-- Script -->
   <script>
+    /* -- Tooltip -- */
     $(document).ready(function(){
       $('[data-toggle="tooltip"]').tooltip();   
+    });
+
+    /* -- Slide -- */
+    $(window).scroll(function() {
+      $(".slideanim").each(function(){
+        var pos = $(this).offset().top;
+        var winTop = $(window).scrollTop();
+        if (pos < winTop + 600) {
+          $(this).addClass("slide");
+        }
+      });
     });
   </script>
   
