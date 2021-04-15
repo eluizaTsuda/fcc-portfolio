@@ -106,16 +106,16 @@
     <h2>My name is Luiza, but you can call me by my nickname "Luh!"</h2>
     <img 
       src="image/Luh_avatar_hi.png" 
-      class="img-responsive slideanim" 
+      class="img-responsive" 
       style="display:inline" alt="Luh_avatar" 
       data-toggle="tooltip" title="Nice to meet you!"
     >
     <p>I am a web developer based on the beautiful eastern coast of Canada, St.John's.</p>
     <p>I hold a Bachelor of Science degree in applied mathematics and computing science; and a graduate Diploma in services-oriented software engineering.</p>
 
-    <p>I worked as a systems analyst for several years. Now I am in a career transition, and my current goal is to acquire knowledge in web development.</p>
+    <p>I worked as a systems analyst for several years in my home country. Now I am in a career transition, and my current goal is to acquire knowledge in web development.</p>
     
-    <p>I am a self-taught web developer; I am working with the FreeCodeCamp curriculum to help me achieve this. Given my technical background, my journey has been smooth and rewarding.</p>
+    <p>I am a self-taught web developer; I am working with the <a href="https://www.freecodecamp.org/" target="_blank">FreeCodeCamp <i class="fab fa-free-code-camp"></i></a> curriculum to help me achieve this. Given my technical background, my journey has been smooth and rewarding.</p>
     
     <p>In the section below, you will find some  projects that I have completed so far and that I will continue to grow and, I hope, improve as I work with the curriculum.</p>
     
@@ -129,7 +129,7 @@
 
     <h2>What I have created ...</h2>
     <br>
-    <div class="row text-center slideanim">
+    <div class="row text-center">
       <!-- >>>>> Personal Portfolio <<<<< -->
       <div class="col-sm-4">
         <div class="thumbnail">
@@ -221,7 +221,7 @@
     </div>
   
     <!-- >>>>> Product landing <<<<< -->
-    <div class="row text-center slideanim">
+    <div class="row text-center">
       <div class="col-sm-4">
         <div class="thumbnail">
           <a href="https://codepen.io/eluizatsuda/full/qBaJorN" target="_blank"><img src="image/img-product-transp.png" alt="site responsive - product landing" width="400" height="300" class="bg-img-product"></a>
@@ -335,7 +335,7 @@
 
       <div class="col-sm-5 ">
           <p>... or through the social media </p>
-          <div class="row slideanim">
+          <div class="row">
             <a
             href="https://www.linkedin.com/in/luizatsuda/"
             target="_blank"
@@ -358,7 +358,7 @@
           </div>
           <br><br>
           <p>... and don't forget to visit my profile on </p>
-          <div class="row slideanim">
+          <div class="row">
             <a
             id="profile-link"
             href="https://github.com/eluizaTsuda"
@@ -403,17 +403,6 @@
     /* -- Tooltip -- */
     $(document).ready(function(){
       $('[data-toggle="tooltip"]').tooltip();   
-    });
-
-    /* -- Slide -- */
-    $(window).scroll(function() {
-      $(".slideanim").each(function(){
-        var pos = $(this).offset().top;
-        var winTop = $(window).scrollTop();
-        if (pos < winTop + 600) {
-          $(this).addClass("slide");
-        }
-      });
     });
   </script>
   
