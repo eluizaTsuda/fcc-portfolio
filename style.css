@@ -2,14 +2,16 @@
  --color-pink: #950E4C;
  --color-purple: #ab35bb;
  --color-light-purple: #c9b6e4;
- --color-grey: #f6f6f6;
- --color-black: #2E2F32;
+ --color-grey: #f2f3f5;
  --color-light-blue: #97c2e2;
- --color-light-skyblue:  rgb(189, 213, 240);
+ --color-light-skyblue:  #bdd5f0; /*rgb(189, 213, 240);*/
  --color-grayish-blue: rgb(138, 170, 190);
  --color-light-orange: rgb(248, 225, 182);
  --color-light-green: #92afaf;
-}
+ --color-strong-blue: #052e55;
+ --color-black: #2E2F32;
+} 
+ 
 
 body{
   font-family: 'Livvic', sans-serif;
@@ -102,13 +104,13 @@ body{
 }
 
 .navbar-nav li a:hover, .navbar-nav li.active a {
-  color: #052e55 !important;
-  background-color: #f2f3f5!important;
+  color: var(--color-strong-blue) !important;
+  background-color: var(--color-grey) !important;
 }
 
 .navbar-default .navbar-toggle {
   border-color: transparent;
-  color: #f2f3f5 !important;
+  color: var(--color-grey) !important;
 }
 
 
@@ -128,13 +130,13 @@ footer .brandname {
 footer .fa-angle-double-up {
   font-size: 25px;
   margin-bottom: 10px;
-  color: #f2f3f5;;
+  color: var(--color-grey);
 }
 
 .codedby {
   font-weight:500;
   font-size: 0.9em;
-  color: #f2f3f5;
+  color: var(--color-grey);
 }
 
 /* >>>>>>> Button Portfolio <<<<< */
@@ -149,7 +151,7 @@ footer .fa-angle-double-up {
   padding: 1rem 2rem;
   border-radius: 2px;
   font-size: 2.0rem;
-  color: #950E4C;
+  color: var(--color-pink);
   text-shadow: 1px 1px 1px rgb(109, 203, 235);
   transition: transform 0.3s ease-out;
 }
