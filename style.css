@@ -3,16 +3,15 @@
  --color-purple: #ab35bb;
  --color-light-purple: #c9b6e4;
  --color-grey: #f2f3f5;
+ --color-light-grey: #d3d3d3;
  --color-light-blue: #97c2e2;
- --color-light-skyblue: #c4e9f8 ; /*#bdd5f0 rgb(189, 213, 240); soft-blue*/ 
- --color-grayish-blue: #8aaabe;   /*rgb(138, 170, 190);*/
+ --color-light-skyblue: #c4e9f8 ;
+ --color-grayish-blue: #8aaabe;  
  --color-dark-blue: #052e55;
- --color-light-orange: #f8e1b6;   /*rgb(248, 225, 182);*/
+ --color-light-orange: #f8e1b6;
  --color-light-green: #92afaf;
-
- --color-black: #2E2F32;
+ --color-black: #374245; 
 } 
- 
 
 body{
   font-family: 'Livvic', sans-serif;
@@ -48,8 +47,8 @@ body{
 .bg-img-simplyme{
   background-color: var(--color-light-purple);
 }
-.bg-img-newproject{
-  background-color: lightgray;
+.bg-img-myportfolio{
+  background-color: var(--color-light-grey);
 }
 .text-strong{
   font-weight: 600;
@@ -75,12 +74,12 @@ body{
   margin-bottom: 5px;
 }
 .thumbnail a{
-  color: var(--color-pink) !important; 
+  color: var(--color-pink); /*!important;*/ 
   font-size: 16px;
 }
 
 #about a{
-  color: var(--color-pink) !important; 
+  color: var(--color-pink); /*!important;*/ 
 }
 
 .carousel-inner img {
@@ -90,28 +89,27 @@ body{
 
 .navbar {
   margin-bottom: 0;
-  background-color: var(--color-light-blue); /*lightblue*/
+  background-color: var(--color-light-blue);
   z-index: 9999;
   border: 0;
-  font-size: 14px !important;
-  line-height: 1.42857143 !important;
+  font-size: 14px; /*!important;*/ 
   letter-spacing: 4px;
   border-radius: 0;
 }
 
 .navbar li a, .navbar .navbar-brand {
-  color: var(--color-pink) !important; 
+  color: var(--color-pink); /*!important;*/ 
   font-weight: 600;
 }
 
 .navbar-nav li a:hover, .navbar-nav li.active a {
-  color: var(--color-dark-blue) !important;
-  background-color: var(--color-grey) !important;
+  color: var(--color-dark-blue); /*!important;*/ 
+  background-color: var(--color-grey) !important; 
 }
 
 .navbar-default .navbar-toggle {
   border-color: transparent;
-  color: var(--color-grey) !important;
+  color: var(--color-grey); /*!important;*/ 
 }
 
 
@@ -153,7 +151,7 @@ footer .fa-angle-double-up {
   border-radius: 2px;
   font-size: 2.0rem;
   color: var(--color-pink);
-  text-shadow: 1px 1px 1px rgb(109, 203, 235);
+  text-shadow: 1px 1px 1px var(--color-light-blue);
   transition: transform 0.3s ease-out;
 }
 .btn-contact:hover {
