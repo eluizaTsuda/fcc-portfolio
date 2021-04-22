@@ -50,7 +50,7 @@ body{
 .bg-img-myportfolio{
   background-color: var(--color-light-grey);
 }
-.text-strong{
+.project-tile{
   font-weight: 600;
 }
 .font-size16 {
@@ -98,7 +98,7 @@ body{
 }
 
 .navbar li a, .navbar .navbar-brand {
-  color: var(--color-pink); /*!important;*/ 
+  color: var(--color-pink) !important;
   font-weight: 600;
 }
 
