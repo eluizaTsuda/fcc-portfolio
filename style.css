@@ -109,7 +109,7 @@ body{
 
 .navbar-default .navbar-toggle {
   border-color: transparent;
-  color: var(--color-grey); /*!important;*/ 
+  color: var(--color-gray); /*!important;*/ 
 }
 
 
@@ -139,7 +139,7 @@ footer .fa-angle-double-up {
 }
 
 /* >>>>>>> Button Portfolio <<<<< */
-.btn-portfolio {
+.btn-techstack {
   display: inline-block;
   font-size: 2rem;
 }
