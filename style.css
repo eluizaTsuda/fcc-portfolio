@@ -1,160 +1,189 @@
 :root{
- --color-pink: #950E4C;
- --color-purple: #ab35bb;
- --color-light-purple: #c9b6e4;
- --color-grey: #f2f3f5;
- --color-light-grey: #d3d3d3;
- --color-light-blue: #97c2e2;
- --color-light-skyblue: #c4e9f8 ;
- --color-grayish-blue: #8aaabe;  
- --color-dark-blue: #052e55;
- --color-light-orange: #f8e1b6;
- --color-light-green: #92afaf;
- --color-black: #374245; 
-} 
+  --color-pink: #950E4C;
+  --color-purple: #ab35bb;
+  --color-light-purple: #efe8f8;
+  --color-grey: #f2f3f5;
+  --color-light-grey: #d3d3d3;
+  --color-light-blue: #97c2e2;
+  --color-light-skyblue: #c4e9f8 ;
+  --color-grayish-blue: #8aaabe;  
+  --color-dark-blue: #052e55;
+  --color-light-orange: #f8e1b6;
+  --color-light-green: #92afaf;
+  --color-black: #374245; 
+ } 
+ 
+ body section,footer{
+      font-family: 'Livvic', sans-serif;
+      font-size: 20px;
+      line-height: 1.5;
+ }
+ 
+ .h1-font-size-welcome {
+      font-size: 20px;
+    }
+ .project-tile{
+      font-weight: 600;
+  }
+ .font-size16 {
+      font-size: 16px;
+  }
 
-body{
-  font-family: 'Livvic', sans-serif;
-  font-size: 20px;
-  line-height: 1.5;
+  .img-center{
+      padding: 80px 50px;
+  }
+ 
+ @media screen and (max-width: 600px) {
+      .h1-font-size {
+        font-size: 22px;
+        font-weight: 600;
+      }
+      #contact h3{
+         font-size: 18px;
+      }
+      .img-center{
+          padding: 180px 50px;
+      }
+  }
+ 
+ #myPage a{
+      color: var(--color-pink); 
+      font-size: 16px;
+ }
+ 
+  .bg-grey{
+      background-color: var(--color-grey);
+  }
+  .bg-blue{
+      background-color: var(--color-light-blue); 
+    }
+  .bg-black{
+      background-color: var(--color-black);
+  }
+ 
+ .bg-img-newproject{
+   background-color: var(--color-light-grey);
+ } 
+ .bg-img-myportfolio{
+   background-color: var(--color-light-purple);
+ }
+ .bg-img-tecnical{
+   background-color: var(--color-light-green);
+ }
+ .bg-img-product{
+   background-color: var(--color-grayish-blue);
+ }
+ .bg-img-survey{
+   background-color: var(--color-light-orange);
+ }
+ .bg-img-tribute{
+   background-color: var(--color-light-skyblue); 
+ }
+ 
+ /* Container */
+  .container-fluid {
+      padding: 60px 50px;
+  }
+ 
+/* Carousel */   
+.carousel-inner img {
+      width: 100%; /*  Set width to 100% */
+      margin:auto;
 }
 
-.container-fluid {
-  padding: 60px 50px;
+  /* welcome section */
+.welcome-section {
+   background: url(https://eluizatsuda.github.io/image/portfolio/Background-1920x1920.png) fixed;
+   background-color: var(--color-grey);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   position: relative;
+   margin-top: 0;
+   width: 100%;
+   height: 100vh;
+   margin-top: 0; 
 }
 
-.bg-grey{
-  background-color: var(--color-grey);
-}
-.bg-black{
-  background-color: var(--color-black);
-}
-.bg-blue{
-  background-color: var(--color-light-blue); 
-}
-.bg-img-tecnical{
-  background-color: var(--color-light-green);
-}
-.bg-img-product{
-  background-color: var(--color-grayish-blue);
-}
-.bg-img-survey{
-  background-color: var(--color-light-orange);
-}
-.bg-img-tribute{
-  background-color: var(--color-light-skyblue); 
-}
-.bg-img-simplyme{
-  background-color: var(--color-light-purple);
-}
-.bg-img-myportfolio{
-  background-color: var(--color-light-grey);
-}
-.project-tile{
-  font-weight: 600;
-}
-.font-size16 {
-  font-size: 16px;
-}
 
-@media screen and (max-width: 768px) {
-  .col-sm-4 {
-    text-align: center;
-    margin: 25px 0;
+@media screen and (min-height: 270px) and (max-height: 500px) {
+  .welcome-section img  {
+      width: 25%;
+
   }
 }
-.thumbnail {
-  padding: 0 0 0px 0;
-  border: none;
-  border-radius: 0;
+@media screen and (max-width: 565px) {
+  .welcome-section img {
+      width: 90%;
+  }
 }
-.thumbnail img {
-  width: 100%;
-  height: 100%;
-  margin-bottom: 5px;
-}
-.thumbnail a{
-  color: var(--color-pink); /*!important;*/ 
-  font-size: 16px;
-}
+  
 
-#about a{
-  color: var(--color-pink); /*!important;*/ 
-}
-
-.carousel-inner img {
-  width: 100%; /*  Set width to 100% */
-  margin:auto;
-}
-
-.navbar {
-  margin-bottom: 0;
-  background-color: var(--color-light-blue);
-  z-index: 9999;
-  border: 0;
-  font-size: 14px; /*!important;*/ 
-  letter-spacing: 4px;
-  border-radius: 0;
-}
-
-.navbar li a, .navbar .navbar-brand {
-  color: var(--color-pink) !important;
-  font-weight: 600;
-}
-
-.navbar-nav li a:hover, .navbar-nav li.active a {
-  color: var(--color-dark-blue); /*!important;*/ 
-  background-color: var(--color-grey) !important; 
-}
-
-.navbar-default .navbar-toggle {
-  border-color: transparent;
-  color: var(--color-gray); /*!important;*/ 
-}
-
-
-/* >>>>> Footer - Brandname <<<<< */
-
-.brandname {
-  font-size: 2.0em;
-  font-weight: 900;
-  color: var(--color-purple);
-  font-family: Princess Sofia, Calibri;
-}
-
-footer .brandname {
-  font-size: 1.3em;
-}
-
-footer .fa-angle-double-up {
-  font-size: 25px;
-  margin-bottom: 10px;
-  color: var(--color-grey);
-}
-
-.codedby {
-  font-weight:500;
-  font-size: 0.9em;
-  color: var(--color-grey);
-}
-
-/* >>>>>>> Button Portfolio <<<<< */
-.btn-techstack {
-  display: inline-block;
-  font-size: 2rem;
-}
-
-/* >>>>>>> Contacts <<<<<< */
-.btn-contact {
-  display: inline-block;
-  padding: 1rem 2rem;
-  border-radius: 2px;
-  font-size: 2.0rem;
-  color: var(--color-pink);
-  text-shadow: 1px 1px 1px var(--color-light-blue);
-  transition: transform 0.3s ease-out;
-}
-.btn-contact:hover {
-  transform: translateY(8px);
-}
-
+ 
+ /* Thumbnail */
+ 
+ .col-sm-4 .thumbnail {
+   padding: 0;
+   border: none;
+   border-radius: 0;
+ }
+ 
+ .thumbnail img {
+   width: 100%;
+   height: auto;
+   margin-bottom: 5px;
+ }
+ 
+ 
+ /* Navbar */
+ 
+ #navbar {
+   background-color: var(--color-light-blue);
+   letter-spacing: 4px;
+   font-weight: 600;
+ }
+ #navbar .navbar-nav li a:hover, #navbar .navbar-nav li:active a {
+   color: var(--color-dark-blue); /*!important;*/ 
+   background-color: var(--color-grey); 
+ }
+    
+ 
+ #navbar .brandname, footer .brandname {
+      font-size: 1.6em;
+      font-weight: 600;
+      color: var(--color-pink);
+      font-family: Princess Sofia, Calibri;
+      text-shadow: 1px 1px 8px var(--color-light-blue);
+ }
+ 
+ 
+ footer .fa-angle-double-up {
+   font-size: 25px;
+   margin-bottom: 40px;
+   color: var(--color-grey);
+ }
+ 
+ .codedby {
+   font-size: 0.8em;
+   color: var(--color-grey);
+ }
+ 
+ /* >>>>>>> Portfolio <<<<< */
+ .btn-techstack {
+   display: inline-block;
+   font-size: 1.8rem;
+ }
+ 
+ /* >>>>>>> Contacts <<<<<< */
+ .btn-contact {
+   display: inline-block;
+   padding: 1rem 2rem;
+   font-size: 2.0rem;
+   text-shadow: 1px 1px 1px var(--color-light-blue);
+   transition: transform 0.3s ease-out;
+ }
+ .btn-contact:hover {
+   transform: translateY(8px);
+ }
+ 
+ 
