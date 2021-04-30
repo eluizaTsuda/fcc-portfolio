@@ -11,179 +11,168 @@
   --color-light-orange: #f8e1b6;
   --color-light-green: #92afaf;
   --color-black: #374245; 
- } 
- 
- body section,footer{
-      font-family: 'Livvic', sans-serif;
-      font-size: 20px;
-      line-height: 1.5;
- }
- 
- .h1-font-size-welcome {
-      font-size: 20px;
-    }
- .project-tile{
-      font-weight: 600;
-  }
- .font-size16 {
-      font-size: 16px;
-  }
+} 
 
-  .img-center{
-      padding: 80px 50px;
-  }
- 
- @media screen and (max-width: 600px) {
-      .h1-font-size {
-        font-size: 22px;
-        font-weight: 600;
-      }
-      #contact h3{
-         font-size: 18px;
-      }
-      .img-center{
-          padding: 180px 50px;
-      }
-  }
- 
- #myPage a{
-      color: var(--color-pink); 
-      font-size: 16px;
- }
- 
-  .bg-grey{
-      background-color: var(--color-grey);
-  }
-  .bg-blue{
-      background-color: var(--color-light-blue); 
-    }
-  .bg-black{
-      background-color: var(--color-black);
-  }
- 
- .bg-img-newproject{
-   background-color: var(--color-light-grey);
- } 
- .bg-img-myportfolio{
-   background-color: var(--color-light-purple);
- }
- .bg-img-tecnical{
-   background-color: var(--color-light-green);
- }
- .bg-img-product{
-   background-color: var(--color-grayish-blue);
- }
- .bg-img-survey{
-   background-color: var(--color-light-orange);
- }
- .bg-img-tribute{
-   background-color: var(--color-light-skyblue); 
- }
- 
- /* Container */
-  .container-fluid {
-      padding: 60px 50px;
-  }
- 
-/* Carousel */   
-.carousel-inner img {
-      width: 100%; /*  Set width to 100% */
-      margin:auto;
+body section,footer{
+  font-family: 'Livvic', sans-serif;
+  font-size: 20px;
+  line-height: 1.5;
 }
 
-  /* welcome section */
+.h1-font-size-welcome {
+  font-size: 20px;
+}
+.project-tile{
+  font-weight: 600;
+}
+.font-size16 {
+  font-size: 16px;
+}
+
+@media screen and (max-width: 600px) {
+  .h1-font-size {
+    font-size: 22px;
+    font-weight: 600;
+  }
+  #contact h3{
+    font-size: 18px;
+  }
+ }
+
+#myPage a{
+  color: var(--color-pink); 
+  font-size: 16px;
+}
+
+
+.bg-grey{
+  background-color: var(--color-grey);
+}
+.bg-blue{
+  background-color: var(--color-light-blue); 
+}
+.bg-black{
+  background-color: var(--color-black);
+}
+
+.bg-img-newproject{
+  background-color: var(--color-light-grey);
+} 
+.bg-img-myportfolio{
+  background-color: var(--color-light-purple);
+}
+.bg-img-tecnical{
+  background-color: var(--color-light-green);
+}
+.bg-img-product{
+  background-color: var(--color-grayish-blue);
+}
+.bg-img-survey{
+  background-color: var(--color-light-orange);
+}
+.bg-img-tribute{
+  background-color: var(--color-light-skyblue); 
+}
+
+/* Container */
+.container-fluid {
+  padding: 60px 50px;
+}
+
+
+/* welcome */
 .welcome-section {
-   background: url(https://eluizatsuda.github.io/image/portfolio/Background-1920x1920.png) fixed;
-   background-color: var(--color-grey);
-   background-repeat: no-repeat;
-   background-position: center;
-   background-size: cover;
-   position: relative;
-   margin-top: 0;
-   width: 100%;
-   height: 100vh;
-   margin-top: 0; 
+  background: url(https://eluizatsuda.github.io/image/portfolio/Background-1920x1920.png) fixed;
+  background-color: var(--color-grey);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  margin-top: 0;
+  width: 100%;
+  height: 100vh;
+  margin-top: 0; 
 }
-
-
+@media screen and (max-height: 270px) {
+  .welcome-section img  {
+    width: 20%;   /* my cellphone */
+  }
+}
 @media screen and (min-height: 270px) and (max-height: 500px) {
   .welcome-section img  {
-      width: 25%;
-
+    width: 25%;
   }
 }
 @media screen and (max-width: 565px) {
   .welcome-section img {
-      width: 90%;
+    width: 90%;
   }
 }
-  
+ 
+/* Thumbnail */
 
- 
- /* Thumbnail */
- 
- .col-sm-4 .thumbnail {
-   padding: 0;
-   border: none;
-   border-radius: 0;
- }
- 
- .thumbnail img {
-   width: 100%;
-   height: auto;
-   margin-bottom: 5px;
- }
- 
- 
- /* Navbar */
- 
- #navbar {
-   background-color: var(--color-light-blue);
-   letter-spacing: 4px;
-   font-weight: 600;
- }
- #navbar .navbar-nav li a:hover, #navbar .navbar-nav li:active a {
-   color: var(--color-dark-blue); /*!important;*/ 
-   background-color: var(--color-grey); 
- }
-    
- 
- #navbar .brandname, footer .brandname {
-      font-size: 1.6em;
-      font-weight: 600;
-      color: var(--color-pink);
-      font-family: Princess Sofia, Calibri;
-      text-shadow: 1px 1px 8px var(--color-light-blue);
- }
- 
- 
- footer .fa-angle-double-up {
-   font-size: 25px;
-   margin-bottom: 40px;
-   color: var(--color-grey);
- }
- 
- .codedby {
-   font-size: 0.8em;
-   color: var(--color-grey);
- }
- 
- /* >>>>>>> Portfolio <<<<< */
- .btn-techstack {
-   display: inline-block;
-   font-size: 1.8rem;
- }
- 
- /* >>>>>>> Contacts <<<<<< */
- .btn-contact {
-   display: inline-block;
-   padding: 1rem 2rem;
-   font-size: 2.0rem;
-   text-shadow: 1px 1px 1px var(--color-light-blue);
-   transition: transform 0.3s ease-out;
- }
- .btn-contact:hover {
-   transform: translateY(8px);
- }
- 
- 
+.col-sm-4 .thumbnail {
+  padding: 0;
+  border: none;
+  border-radius: 0;
+}
+
+.thumbnail img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 5px;
+}
+
+
+/* Navbar */
+
+#navbar {
+  background-color: var(--color-light-blue);
+  letter-spacing: 4px;
+  font-weight: 600;
+}
+#navbar .navbar-nav li a:hover, #navbar .navbar-nav li:active a {
+  color: var(--color-dark-blue); /*!important;*/ 
+  background-color: var(--color-grey); 
+}
+   
+#navbar .brandname, footer .brandname {
+  font-size: 1.6em;
+  font-weight: 600;
+  color: var(--color-pink);
+  font-family: Princess Sofia, Calibri;
+  text-shadow: 1px 1px 8px var(--color-light-blue);
+}
+
+/* >>>>>>> Portfolio <<<<< */
+.btn-techstack {
+  display: inline-block;
+  font-size: 1.8rem;
+}
+
+/* >>>>>>> Contacts <<<<<< */
+.btn-contact {
+  display: inline-block;
+  padding: 1rem 2rem;
+  font-size: 2.0rem;
+  text-shadow: 1px 1px 1px var(--color-light-blue);
+  transition: transform 0.3s ease-out;
+}
+.btn-contact:hover {
+  transform: translateY(8px);
+}
+
+/* Footer */
+footer .fa-angle-double-up {
+  font-size: 25px;
+  margin-bottom: 40px;
+  color: var(--color-grey);
+}
+
+.codedby {
+  font-size: 0.8em;
+  color: var(--color-grey);
+}
+
+
+
